@@ -9,4 +9,5 @@ The proposed software system is a customized “Archiver” application, which w
 The Archiver program allows users to manage multiple versions of selected files efficiently, only recording the parts that are changed between various versions. It has operations on files including adding new file to system, saving current version if updated, setting a selected version as reference, retrieving selected version’s detailed information and showing a selected version’s comment.
 
 <strong><span style="color: #3366ff;">2. Screenshots</span></strong>
+
 <img src="http://fancy-zhe.com/wp-content/uploads/2018/10/addnew04.png" alt="" width="669" height="377" class="aligncenter size-full wp-image-84" />
