@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BlkTable.h</itemPath>
+      <itemPath>FileArchiver.h</itemPath>
+      <itemPath>FileRec.h</itemPath>
+      <itemPath>GetCommentForm.h</itemPath>
+      <itemPath>MainWindow.h</itemPath>
+      <itemPath>MyTableModel.h</itemPath>
+      <itemPath>RetrieveForm.h</itemPath>
+      <itemPath>VersionInfoRecord.h</itemPath>
+      <itemPath>VersionRec.h</itemPath>
+      <itemPath>fns.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>GetCommentForm.ui</itemPath>
+      <itemPath>MainWindow.ui</itemPath>
+      <itemPath>RetrieveForm.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>BlkTable.cpp</itemPath>
+      <itemPath>FileArchiver.cpp</itemPath>
+      <itemPath>FileRec.cpp</itemPath>
+      <itemPath>GetCommentForm.cpp</itemPath>
+      <itemPath>MainWindow.cpp</itemPath>
+      <itemPath>MyTableModel.cpp</itemPath>
+      <itemPath>RetrieveForm.cpp</itemPath>
+      <itemPath>VersionInfoRecord.cpp</itemPath>
+      <itemPath>VersionRec.cpp</itemPath>
+      <itemPath>fns.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/qt4</pElem>
+            <pElem>/usr/include/mongo</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libboost_serialization.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libQtGui.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libQtCore.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libboost_system.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/libmongoclient.a</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libboost_filesystem.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libboost_thread.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libboost_program_options.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libboost_regex.so</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="BlkTable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BlkTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileArchiver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileArchiver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileRec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileRec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GetCommentForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GetCommentForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GetCommentForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MyTableModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MyTableModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RetrieveForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RetrieveForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RetrieveForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VersionInfoRecord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VersionInfoRecord.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VersionRec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VersionRec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fns.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="BlkTable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BlkTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileArchiver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileArchiver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileRec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileRec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GetCommentForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GetCommentForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GetCommentForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MyTableModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MyTableModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RetrieveForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RetrieveForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RetrieveForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VersionInfoRecord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VersionInfoRecord.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VersionRec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VersionRec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fns.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
