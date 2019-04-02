@@ -10,4 +10,4 @@ The Archiver program allows users to manage multiple versions of selected files 
 
 <strong><span style="color: #3366ff;">2. Screenshots</span></strong>
 
-<img src="https://imgur.com/2MYPz9O" alt="" width="669" height="377" class="aligncenter size-full wp-image-84" />
+<img src="https://i.imgur.com/2MYPz9O.png" alt="" width="669" height="377" class="aligncenter size-full wp-image-84" />
